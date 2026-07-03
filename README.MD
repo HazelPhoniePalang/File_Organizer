@@ -31,7 +31,7 @@ cd file-organizer
 4. Extract the ZIP file anywhere on your computer.
 5. Open a terminal in that extracted folder.
 
-## 🚀 How to Use
+## How to Use
 
 1. Make sure you have the project on your computer using one of the methods above.
 2. **Open a terminal** and navigate to the folder containing the script:
