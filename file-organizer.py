@@ -3,13 +3,15 @@ from pathlib import Path
 
 # Map each folder name to the extensions that belong in it
 FILE_TYPES = {
-    "Picture": [".jpeg", ".jpg", ".png", ".gif"],
-    "Video": [".wmv", ".mov", ".mp4", ".mpg", ".mpeg", ".mkv"],
-    "Zip": [".zip", ".iso", ".tar"],
+    "Application":[".exe"],
     "Document": ['doc', 'docx', 'odt', 'pdf', 'xls', 'xlsx', 'ods', 'ppt', 'pptx'],
+    "Excel":[".xls", ".xlsx", ".csv"],
+    "Icons":[".ico"],
     "Music": [".mp3", ".msv", ".wav", ".wma"],
+    "Picture": [".jpeg", ".jpg", ".png", ".gif"],
     "SQL":[".sql"],
-    "Excel":[".xls", ".xlsx", ".csv"]
+    "Video": [".wmv", ".mov", ".mp4", ".mpg", ".mpeg", ".mkv"],
+    "Zip": [".zip", ".iso", ".tar"]
 }
 
 EXTENSION_TO_FOLDER = {
